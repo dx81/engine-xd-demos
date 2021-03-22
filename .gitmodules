@@ -1,0 +1,3 @@
+[submodule "engine-xd"]
+	path = engine-xd
+	url = https://github.com/dx81/engine-xd
