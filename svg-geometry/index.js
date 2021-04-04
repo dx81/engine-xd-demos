@@ -3,7 +3,7 @@ import Engine from "../engine-xd/src/engine.js";
 const T = x => [ x, x, x ]
 
 window.onload = async () => {
-    const display = new Engine.Displays.Canvas("main");
+    const display = new Engine.Displays.SVG("main");
 
     const scene = [];
     const engine = new Engine(scene, [ display ]);
@@ -41,6 +41,7 @@ window.onload = async () => {
         ],
     }));
 
-    engine.start();
+    engine.frame(50);
+
     console.log(engine.scene);
 };

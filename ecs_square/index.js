@@ -40,8 +40,8 @@ class SquareHandler extends Engine.System {
 
 window.onload = async () => {
 
-    const display = new Engine.Canvas("main");
-    const scene = new Engine.Scene();
+    const display = new Engine.Displays.Canvas("main");
+    const scene = [];
     const engine = new Engine(scene, [ display ]);
 
     // delete scene/systems/components
