@@ -10,7 +10,7 @@ window.onload = async () => {
 
     await engine.addEntity(new Engine.Entity({
         camera: {
-            distance: 200,
+            distance: 500,
             isometric: false,
         },
     }));
